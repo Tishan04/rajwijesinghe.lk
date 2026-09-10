@@ -167,7 +167,10 @@ body.dark .site-header{
 }
 
 .brand small{
-  display:block;font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--blue);font-weight:800;margin-top:-2px}
+  display:block;
+  font-size:.62rem;
+  letter-spacing:.15em;
+  text-transform:uppercase;color:var(--blue);font-weight:800;margin-top:-2px}
 .nav-links{display:flex;align-items:center;gap:22px;font-size:.88rem;font-weight:800;color:var(--muted)}
 .nav-links a{position:relative;padding:29px 0 26px;transition:.2s ease}
 .nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:3px;background:var(--blue);border-radius:999px;transition:.22s ease}
