@@ -20,11 +20,11 @@
 }
 
 *{
-  box-sizing:border-box
+  box-sizing:border-box;
 }
 
 html{
-  scroll-behavior:smooth
+  scroll-behavior:smooth;
 }
 
 body{
@@ -33,7 +33,7 @@ body{
   color:var(--text);
   font-family:"Manrope",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   line-height:1.65;
-  transition:background .25s ease,color .25s ease
+  transition:background .25s ease,color .25s ease;
 }
 
 body.dark{
@@ -46,13 +46,26 @@ body.dark{
   --muted:#a8b7cf;
   --line:rgba(171,205,255,.14);
   --shadow:0 24px 70px rgba(0,0,0,.28);
-  --shadow-soft:0 12px 36px rgba(0,0,0,.22)
+  --shadow-soft:0 12px 36px rgba(0,0,0,.22);
 }
 
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
-button,input,textarea,select{font:inherit}
-button{cursor:pointer}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+button,input,textarea,select{
+  font:inherit;
+}
+
+button{
+  cursor:pointer;
+}
 .container{width:min(var(--max),calc(100% - 40px));margin:0 auto}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.15em;font-size:.74rem;font-weight:900;color:var(--blue)}
 .eyebrow::before{content:"";width:30px;height:3px;border-radius:999px;background:linear-gradient(90deg,var(--blue),var(--blue-3))}
