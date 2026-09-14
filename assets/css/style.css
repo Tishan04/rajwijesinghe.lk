@@ -195,9 +195,17 @@ body.dark .site-header{
   border-radius:999px;
   transition:.22s ease
 }
-.nav-links a:hover,.nav-links a.active{color:var(--blue)}
-.nav-links a:hover::after,.nav-links a.active::after{right:0}
-.nav-actions{display:flex;align-items:center;gap:10px}
+.nav-links a:hover,.nav-links a.active{
+  color:var(--blue)
+}
+.nav-links a:hover::after,.nav-links a.active::after{
+  right:0
+}
+.nav-actions{
+  display:flex;
+  align-items:center;
+  gap:10px
+}
 .icon-btn,.menu-btn{width:42px;height:42px;border-radius:13px;border:1px solid var(--line);background:var(--surface);color:var(--heading);display:grid;place-items:center;box-shadow:var(--shadow-soft)}
 .menu-btn{display:none}
 .cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 19px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-2));color:#fff;font-weight:900;border:1px solid var(--blue);box-shadow:0 12px 26px rgba(19,104,232,.18);transition:.23s ease}
